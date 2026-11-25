@@ -1,5 +1,7 @@
 # MSWQ-SP
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24544993.svg)](https://doi.org/10.5281/zenodo.24544993)
+
 **Results and plotting scripts for:**
 
 > **Observability and Generalized Sensor Placement for Nonlinear Quality Models in Drinking Water Networks**
@@ -36,6 +38,19 @@ Water quality sensor placement in drinking water networks usually relies on sing
   year    = {2025},
   doi     = {10.1016/j.jwpe.2025.108339},
   note    = {Published 8 August 2025. arXiv:2411.04202}
+}
+```
+
+To cite the results and scripts themselves (version 1.0, archived on Zenodo):
+
+```bibtex
+@misc{kazma2025mswqsp,
+  author       = {Kazma, Mohamad H. and Elsherif, Salma M. and Taha, Ahmad F.},
+  title        = {{MSWQ-SP}: Observability and generalized sensor placement for nonlinear water quality
+                  models (results and plotting scripts, Version 1.0)},
+  howpublished = {Zenodo},
+  year         = {2026},
+  doi          = {10.5281/zenodo.24544993}
 }
 ```
 
