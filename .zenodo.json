@@ -1,0 +1,45 @@
+{
+  "title": "MSWQ-SP: Observability and generalized sensor placement for nonlinear water quality models (results and plotting scripts)",
+  "upload_type": "dataset",
+  "description": "Results and plotting scripts for the paper Observability and generalized sensor placement for nonlinear quality models in drinking water networks by M. H. Kazma, S. M. Elsherif, and A. F. Taha, Journal of Water Process Engineering 77, 108339, 2025 (published 8 August 2025), DOI 10.1016/j.jwpe.2025.108339, arXiv:2411.04202. Water quality sensor placement in drinking water networks usually relies on single-species chlorine decay models and on a single hydraulic profile. The paper instead quantifies the observability of nonlinear multi-species chlorine transport, decay, and reaction dynamics with a moving horizon formulation, and uses observability measures (log determinant and trace) that keep the submodular structure of the sensor selection problem. A greedy algorithm then gives one sensor configuration that is robust to varying demand patterns and water quality conditions. The repository contains the observability measures and optimal sensor configurations computed for EPANET Net1 and Net2 under three hydraulic profiles, and for Net1 also under two changes of the multi-species reaction coefficient and initial conditions, and the scripts that plot the figures of the paper.",
+  "creators": [
+    {
+      "name": "Kazma, Mohamad H.",
+      "affiliation": "Vanderbilt University",
+      "orcid": "0000-0002-8217-1633"
+    },
+    {
+      "name": "Elsherif, Salma M.",
+      "affiliation": "Vanderbilt University",
+      "orcid": "0000-0002-1814-9431"
+    },
+    {
+      "name": "Taha, Ahmad F.",
+      "affiliation": "Vanderbilt University",
+      "orcid": "0000-0003-0486-2794"
+    }
+  ],
+  "license": "MIT",
+  "version": "1.0",
+  "keywords": [
+    "water quality",
+    "sensor placement",
+    "observability",
+    "water distribution networks",
+    "EPANET-MSX"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.1016/j.jwpe.2025.108339",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "arXiv:2411.04202",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-preprint",
+      "scheme": "arxiv"
+    }
+  ]
+}
